@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/*headerコード*/
+header{
+    background-color: bisque;
+    color : white;
+    height : 90px;
+    width : 100%;
+    position: fixed;
+    top : 0;
+    z-index : 10;
+}
+
+.header-left{
+    float : left;
+    padding : 0 20px;
+}
+
+.header-list a{
+    float : left;
+    padding : 33px 20px;
+    color : green;
+    opacity : 0.7;
+}
+
+.header-list a:hover{
+    opacity : 1.0;
+    color : purple;
+}
+
+.header-right a{
+    float : right;
+    color : green;
+    padding : 33px 30px;
+    opacity : 0.7;
+}
+
+.header-right a:hover{
+    opacity : 1.0;
+    color : purple;
+}
+
+.logo{
+    width : 124px;
+    margin-top : 20px;
+}
+
+.space_1{
+    padding-top : 90px
+}
+/*ここまでheader*/
+
+/*mainコード*/
+.copy-container{
+    width : 1170px;
+    padding : 0 15px;
+    margin : 0 auto;
+    text-align: left;
+}
+
+.copy-container h1{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+
+.copy-container h2{
+    color:darkolivegreen;
+    font-size : 20px
+}
+
+.space_2{
+    padding-top : 10px
+}
+
+.section-title{
+    border-top : 1px solid gray;
+    padding-left : 30px;
+    padding-bottom: 20px;
+}
+
+.section-title h3{
+    font-size: 27px;
+}
+
+.links{
+    display:block;
+    font-size: 18px;
+}
+
+.section-title img{
+    height : 200px;
+    width : 400px;
+}
+/*ここまでmain*/
+
+/*footerコード*/
+footer{
+    background-color: #2f5167;
+    height : 80px;
+    padding : 40px;
+    color: white;
+}
+
+.footer-logo{
+    float : left;
+    font-size : 30px;
+}
+
+.footer-list{
+    float : right;
+    font-size : 20px;
+}
+
+.footer-list a{
+    color: antiquewhite;
+    opacity : 0.7;
+}
+
+footer p{
+    text-align: center;
+}
+
+.space_3{
+    padding : 20px;
+}
+
+footer a:hover{
+    opacity : 1.0;
+    color : red;
+}
+
+/*ここまでmain*/
